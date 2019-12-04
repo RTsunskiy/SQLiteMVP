@@ -1,6 +1,6 @@
 package com.example.sqlitemvp;
 
-import com.example.sqlitemvp.presentation.activity.MainActivity;
+import com.example.sqlitemvp.presentation.view.MainActivity;
 import com.example.sqlitemvp.presentation.presenter.Presenter;
 
 import org.junit.Before;

@@ -1,13 +1,12 @@
 package com.example.sqlitemvp.data;
 
-import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.provider.BaseColumns;
 
 import com.example.sqlitemvp.data.pojo.Note;
-import com.example.sqlitemvp.presentation.activity.MainActivity;
+import com.example.sqlitemvp.presentation.view.MainActivity;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

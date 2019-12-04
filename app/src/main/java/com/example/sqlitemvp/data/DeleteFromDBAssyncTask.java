@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 
-import com.example.sqlitemvp.presentation.activity.MainActivity;
+import com.example.sqlitemvp.presentation.view.MainActivity;
 
 import java.lang.ref.WeakReference;
 

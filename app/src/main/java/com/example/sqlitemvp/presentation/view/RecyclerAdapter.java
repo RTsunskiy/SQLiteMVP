@@ -1,4 +1,4 @@
-package com.example.sqlitemvp.presentation;
+package com.example.sqlitemvp.presentation.view;
 
 import android.content.Context;
 import android.view.ContextMenu;

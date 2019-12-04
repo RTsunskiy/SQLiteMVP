@@ -2,7 +2,7 @@ package com.example.sqlitemvp.presentation.presenter;
 
 import com.example.sqlitemvp.data.AddToDBAssyncTask;
 import com.example.sqlitemvp.data.ReadFromDBAssyncTask;
-import com.example.sqlitemvp.presentation.activity.MainActivity;
+import com.example.sqlitemvp.presentation.view.MainActivity;
 
 import java.lang.ref.WeakReference;
 

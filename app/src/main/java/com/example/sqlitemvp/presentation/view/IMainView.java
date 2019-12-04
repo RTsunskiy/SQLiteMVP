@@ -1,4 +1,4 @@
-package com.example.sqlitemvp.presentation;
+package com.example.sqlitemvp.presentation.view;
 
 import com.example.sqlitemvp.data.pojo.Note;
 

@@ -1,4 +1,4 @@
-package com.example.sqlitemvp.presentation.activity;
+package com.example.sqlitemvp.presentation.view;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,10 +12,8 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.sqlitemvp.data.pojo.Note;
-import com.example.sqlitemvp.presentation.RecyclerAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.example.sqlitemvp.R;
-import com.example.sqlitemvp.presentation.IMainView;
 import com.example.sqlitemvp.presentation.presenter.Presenter;
 
 import java.util.List;
