@@ -1,10 +1,11 @@
 package com.example.sqlitemvp.data;
 
 import android.content.ContentValues;
+import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 
-import com.example.sqlitemvp.presentation.MainActivity;
+import com.example.sqlitemvp.presentation.activity.MainActivity;
 
 import java.lang.ref.WeakReference;
 
@@ -14,8 +15,8 @@ import java.lang.ref.WeakReference;
         private WeakReference<MainActivity> mainActivityWeakReference;
         private final static int DEFAULT_STATUS = 0;
 
-        public AddToDBAssyncTask(MainActivity mainActivity, String title) {
-            this.mainActivityWeakReference = new WeakReference<>(mainActivity);
+        public AddToDBAssyncTask(MainActivity activity, String title) {
+            this.mainActivityWeakReference = new WeakReference<>(activity);
             this.title = title;
         }
 

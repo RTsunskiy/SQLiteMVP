@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SQLiteMVP</string>
+    <string name="action_settings">Settings</string>
+    <string name="save_data_title">Сохранить данные</string>
+    <string name="save_data_message">Нажмите ОК, чтобы сохранить</string>
+    <string name="yes">Да</string>
+    <string name="alert_dialog_title">Сохранить данные</string>
+    <string name="delete_note_string">Удалить</string>
+    <string name="empty_edit_text">Не введена задача!</string>
+    <string name="cancel">Отмена</string>
 </resources>

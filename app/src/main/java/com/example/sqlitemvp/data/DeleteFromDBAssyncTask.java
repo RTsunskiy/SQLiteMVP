@@ -4,11 +4,12 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 
-import com.example.sqlitemvp.presentation.MainActivity;
+import com.example.sqlitemvp.presentation.activity.MainActivity;
 
 import java.lang.ref.WeakReference;
 
 public class DeleteFromDBAssyncTask extends AsyncTask<Void, Void, Void> {
+
     private WeakReference<Context> contextWeakReference;
     private int id;
 
